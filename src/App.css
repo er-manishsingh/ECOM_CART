@@ -1,3 +1,71 @@
+/*  */
+.btn-wrapper button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+
+}
+
+.img-wrapper img {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.cart-wrapper{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 5%;
+  background-color: #6e5a24
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+
+.add-to-cart img{
+  width: 80px;
+
+}
+.add-to-cart span{
+  padding: 7px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  margin-left: 48px;
+  margin-top: 5px;
+  color: white;
+  width: 20px;
+}
+
+button.remove-btn{
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 7px;
+  margin-top: 5px;
+}
+
+
+
+
+
+/*  */
+
 .App {
   text-align: center;
 }
